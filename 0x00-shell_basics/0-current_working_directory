@@ -1,2 +1,4 @@
 #!/bin/bash
 the command to print current working directory is pwd
+/root/alx-system_engineering-devops/0x00-shell_basics 
+pwd
