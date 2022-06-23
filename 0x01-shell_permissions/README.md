@@ -4,3 +4,4 @@
 3-chown name filename- changing the ownership of a file
 4-touch command is used to create a file
 5-chmod 010 adds execute rights for current user
+6-chmod 101 to add read execute rights
