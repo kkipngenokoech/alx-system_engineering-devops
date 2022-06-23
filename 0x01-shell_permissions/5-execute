@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 010 
+chmod 744 hello
