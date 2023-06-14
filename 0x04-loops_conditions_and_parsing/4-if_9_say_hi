@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# say hi at point 9
+index=1
+while (($index<=10))
+do
+	if (($index==9))
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	index=$((index+1))
+done
