@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+# using while loop to print best school 10 times
 index=1
-while (($index<=10))
+while ($index<=10)
 do
 	echo "Best School"
 	index=$index+1
