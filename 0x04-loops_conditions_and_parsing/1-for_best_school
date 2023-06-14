@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# we are printing best school 10 times
 for ((index=1; index<=10; index++))
 do
 	echo "Best School"
