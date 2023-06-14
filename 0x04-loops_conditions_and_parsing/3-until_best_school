@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# using until loop
+index=1
+until [ $index -gt 10 ]
+do
+	echo "Best School"
+	index=$((index+1))
+done
