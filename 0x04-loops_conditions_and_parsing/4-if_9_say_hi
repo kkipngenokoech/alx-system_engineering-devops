@@ -3,11 +3,10 @@
 index=1
 while (($index<=10))
 do
+	echo "Best School"
 	if (($index==9))
 	then
 		echo "Hi"
-	else
-		echo "Best School"
 	fi
 	index=$((index+1))
 done
