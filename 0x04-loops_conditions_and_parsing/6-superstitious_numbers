@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# using case
+index=1
+while (($index<=20))
+do
+	echo "$index"
+	case $index in
+		4)
+			echo "bad luck from China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck from Italy"
+			;;
+	esac
+	index=$((index+1))
+done
