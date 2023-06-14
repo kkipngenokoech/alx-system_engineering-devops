@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# using while loop to print best school 10 times
-index=1
-while (($index<=10))
+#Prints "Best School" 10 times using a while loop
+i=0
+while [ $i -lt 10 ]
 do
-	echo "Best School"
-	index=$index+1
+    echo "Best School"
+    i=$((i+1))
 done
